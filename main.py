@@ -28,4 +28,4 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, mesaj_yanitla))
 
     print("Bot sunucuda çalışıyor...")
-    app.run_polling(drop_pending_updates=True)
+    app.run_polling(drop_pending_update
